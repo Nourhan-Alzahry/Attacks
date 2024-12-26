@@ -1,0 +1,3 @@
+dirb https://juice-shop.herokuapp.com /usr/share/wordlists/dirb/common.txt
+dirb https://juice-shop.herokuapp.com /usr/share/wordlists/dirb/common.txt -v | grep -i "admin"
+
