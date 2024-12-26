@@ -1,4 +1,3 @@
-# Cyber-Security-Attacks
 # OWASP Juice Shop Simulated Attack
 
 # Overview
